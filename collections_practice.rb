@@ -50,5 +50,5 @@ end
 
 #9 ***********************
 def add_s
-  
+  array.collect {|name, index| name + "s"}
 end
